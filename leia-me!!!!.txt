@@ -1,0 +1,32 @@
+1º Definindo diretórios:
+	Para definir o diretório dos arquivos .csv's a serem lidos, basta definir o caminho da pasta onde se localizam as pastas "bem_candidato_2014" e 			"consulta_cand_2014". No meu caso, ficou o seguinte: Controle('C:\\Users\\carlo\\Documents\\Projeto - algoritmos\\Projeto updated\\Projeto\\Data')
+
+	A pasta "Data" era onde se localizavam as pastas "consulta_cand_2014" e "Bem_candidato_2014.
+
+
+2º Exemplo com a classe Controle:
+	
+
+2º Leitura dos arquivos:
+	A leitura padrão do código ficou para PE, como pode ser visto abaixo:
+
+	#Leitura dos bens
+	arquivo_2 = open(caminho_panilha+'\\bem_candidato_2014\\bem_candidato_2014_PE.csv', 'r')
+	
+	#Leitura dos candidatos
+	arquivo = open(caminho_panilha+'\\consulta_cand_2014\\consulta_cand_2014_PE.csv', 'r')
+
+	"caminho_panilha" é uma variável que guarda o caminho que você especificou onde estão as pastas "bem_candidato_2014" e "consulta_cand_2014"
+
+3º Alterar estado:
+	
+	Caso queira testar com outros estados ou mesmo ler o país inteiro, basta mudar o estado dos .csv's de candidatos e bens.
+	EX: 
+	arquivo_2 = open(caminho_panilha+'\\bem_candidato_2014\\bem_candidato_2014_BRASIL.csv', 'r')
+	arquivo = open(caminho_panilha+'\\consulta_cand_2014\\consulta_cand_2014_BRASIL.csv', 'r')
+
+
+
+
+
+
